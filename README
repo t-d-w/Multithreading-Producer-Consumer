@@ -1,0 +1,11 @@
+README
+
+Authors: Na Li, Thomas Wilkinson
+
+
+A basic guide to our implementation of the project:
+ - The main file is Main.c. It contains the main method, which handles the creation and interactions of the Reader, Munch1, Munch2,and Writer threads.
+ - Reader.c, read each input line from stdin and throw away the line that exceed the buffer size
+ - MunchAndWrite.c, it handles the enqueue and dequeue actions in munch1 and munch2 thread.
+ - QueueStats, print out the stats of queues, such as enqueueCount, dequeCount, enqueueTime and dequeueTime.
+
